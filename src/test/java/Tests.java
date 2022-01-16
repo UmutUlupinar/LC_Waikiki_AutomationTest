@@ -70,7 +70,11 @@ public class Tests extends rootTest{
         Assertions.assertTrue(cartpage.isBasketEmpty());
     }
 
-
+    @Test
+    @Order(7)
+    public void onCart(){
+       Assertions.assertTrue(cartpage.isBasketEmpty());
+    }
 
 
 
